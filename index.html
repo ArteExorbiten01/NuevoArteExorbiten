@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend Developer portfolio showcasing projects and services." />
+    <meta name="author" content="John Doe" />
+    <title>𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒯𝐸</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+  <body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+      <div class="logo">𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒞𝐸</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hamburger Navigation -->
+    <nav id="hamburger-nav">
+      <div class="logo">𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒯𝐸</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#gallery" onclick="toggleMenu()">Gallery</a></li>
+          <li><a href="#service" onclick="toggleMenu()">Service</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒯𝐸" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hola, somos 𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒞𝐸,</p>
+        <span style="color: red; font-size: 30px;">𝕦𝕟𝕒 𝕡𝕝𝕒𝕥𝕒𝕗𝕠𝕣𝕞𝕒 ú𝕟𝕚𝕔𝕚𝕒 𝕪 𝕔𝕣𝕖𝕒𝕥𝕚𝕧𝕒 𝕤𝕚𝕟 𝕝í𝕞𝕚𝕥𝕖𝕤 𝕕𝕠𝕟𝕕𝕖 𝕖𝕝 𝕒𝕣𝕥𝕖 𝕕𝕚𝕘𝕚𝕥𝕒𝕝 𝕔𝕠𝕓𝕣𝕒 𝕧𝕚𝕕𝕒 𝕔𝕠𝕟 𝕔𝕣𝕖𝕒𝕥𝕚𝕧𝕚𝕕𝕒𝕕 𝕪 𝕧𝕚𝕤𝕚ó𝕟 𝕗𝕦𝕥𝕦𝕣𝕚𝕤𝕥𝕒..</span>
+        <p class="section__text__p2"></p>
+      </ul>
+	<div class="social-buttons">
+					<a href="https://www.facebook.com/Fr13nds07860376" class="social-button facebook"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://wa.me/3112901545" class="social-button whatsapp"><i class="fab fa-whatsapp"></i></a>
+					<a href="https://github.com/Fr13nds07860376" class="social-button github"><i class="fab fa-github"></i></a>	
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="About Me" class="about-pic" />
+        </div>
+          </div>
+          <div class="text-container">
+            <p>
+              un artista digital apasionado por la creatividad y la innovación. Me especializo en crear obras de arte digital únicas y personalizadas que conectan con la esencia de marcas e individuos. Con años de experiencia en el mundo del arte digital, fusiono técnicas artísticas tradicionales con tecnologías de vanguardia para dar vida a tus ideas. Ya sea para tu empresa, un proyecto personal o algo completamente nuevo, estoy aquí para ayudarte a expresar tus conceptos de la manera más vibrante y impactante posible. ¡Vamos a crear algo extraordinario juntos!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <p class="section__text__p1">Gallery</p>
+      <h1 class="title">Gallery</h1>
+      <div class="gallery-details-container">
+        <!-- Gallery Item -->
+        <div class="col">
+          <a href="" target="_blank" class="category-link">
+            <img src="./assets/Imagen de WhatsApp 2024-12-20 a las 21.43.02_0715ad5d.jpg" alt="Cybersecurity Service" class="category-image" />
+            <div class="layer">
+              <h3>Cybersecurity</h3>
+              <h5>$199</h5>
+            </div>
+            <a href="" target="_blank" class="category-link">
+              <img src="./assets/Im2.jpg" alt="Cybersecurity Service" class="category-image" />
+              <div class="layer">
+                <h3>Cybersecurity</h3>
+                <h5>$199</h5>
+          </a>
+        </div>
+        <!-- Other gallery items follow the same structure -->
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service" id="service">
+      <div class="heading" style="text-align: center;">
+        <h3>Services</h3>
+        <h2>Servicios de Arte Digital</h2>
+        <p>Lo que Nuevo Arte Exorbitante Ofrece
+          Explora nuestra variedad de servicios de arte digital diseñados para llevar la identidad visual de tu empresa al siguiente nivel..</p>
+      </div>
+      <div class="service-content">
+        <div class="row" style="text-align: center; margin-bottom: 30px;">
+          <div class="sub-img">
+            <i class="fas fa-shield"></i>
+          </div>
+          <h3><i class="fas fa-lock"></i>Diseño de Logotipos</h3>
+          <h5>Starting at <span></span></h5>
+          <p>Creamos logotipos impactantes y personalizados que representan tu marca de manera profesional y única..</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+            <button>Contactar por WhatsApp</button>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="sub-img">
+              <i class="fas fa-shield"></i>
+          </div>
+          <h3>Diseño de Páginas Web</h3>
+          <h5>Starting at <span></span></h5>
+          <p> Diseñamos páginas web visualmente atractivas y funcionales, adaptadas a las necesidades de tu empresa para mejorar tu presencia online..</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+              <button>Contactar por WhatsApp</button></a>                  
+      </div>
+
+      <div class="row">
+          <div class="sub-img">
+            <i class="fas fa-shield"></i>
+          </div>
+          <h3>Creación de Contenidos Digitales</h3>
+          <h5>Starting at <span></span>/month</h5>
+          <p>  Producción de imágenes, ilustraciones y gráficos personalizados para impulsar tus campañas digitales y fortalecer tu marketing visual..</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+              <button>Contactar por WhatsApp</button></a>                  
+      </div>
+
+      <div class="row">
+          <div class="sub-img">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Diseño para Redes Sociales</h3>
+          <h5>Starting at <span></span></h5>
+          <p>Diseñamos publicaciones y banners para redes sociales que mejoran el engagement y la estética de tu marca en plataformas digitales..</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+              <button>Contactar por WhatsApp</button></a>                  
+      </div>
+
+      <div class="row">
+          <div class="sub-img">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Diseño de Portfolios Digitales</h3>
+          <h5>Starting at <span></span></h5>
+          <p>Diseño de portfolios digitales interactivos y visuales para artistas, fotógrafos, y creativos, ideales para exhibir obras y captar la atención de potenciales clientes o socios..</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+              <button>Contactar por WhatsApp</button>
+          </a>
+      </div>
+
+      <div class="row">
+          <div class="sub-img">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Web Application Security</h3>
+          <h5>Starting at <span>$699</span></h5>
+          <p>Specialized security services to protect your web applications from cyber threats and attacks.</p>
+          <a href="https://wa.me/+573112901545" target="_blank">
+              <button>Contactar por WhatsApp</button></a>                  
+      </div>
+  </div>
+</section>
+</div>
+</section>
+<!--   *** Contact Section Starts ***   -->
+<section class="contact" id="contact">
+	<!--   === Section Heading Starts ===   -->
+	<header class="section-heading">
+		<h1>GET IN TOUCH</h1>
+		<p>"Do you need Cybersecurity Advice? Contact us!.</p>
+	</header>
+	<!--   === Section Heading Ends ===   -->
+	<!--   === Contact Contents Starts ===   -->
+	<div class="contact-contents">
+		<!-- Contact Form Starts -->
+		<div class="contact-form">
+			<form action="https://formsubmit.co/mitnicksecurity@protonmail.com" method="POST">
+				<div class="input-element name-input">
+					<input type="text" name="name" placeholder="Your Name" required>
+				</div>
+				<div class="input-element email-input">
+					<input type="email" name="email" placeholder="Your Email" required>
+				</div>
+				<div class="text-area">
+					<textarea name="message" placeholder="Your Message" required></textarea>
+				</div>
+				<div class="form-button-container">
+					<button type="submit" class="btn form-btn">Send</button>
+					<div id="mensaje-confirmacion"></div>	
+				</div>
+			</form>
+		</div>
+		<!-- Contact Form Ends -->
+	
+		<!-- Contact Details Starts -->
+		<div class="contact-details">
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-location-dot"></i>
+				</div>
+				<div class="contact-text">
+					<span>My Address</span>
+					<span>9800 Savage Rd #6623, Fort Meade, MD 20755, Estados Unidos</span>
+				</div>
+			</div>
+	
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-phone"></i>
+				</div>
+				<div class="contact-text">
+					<span>Phone Number</span>
+					<span>+573227013879</span>
+				</div>
+			</div>
+	
+			<div class="contact-item">
+				<div class="icon">
+					<i class="fa-solid fa-envelope"></i>
+				</div>
+				<div class="contact-text">
+					<span>Email Address</span>
+					<span>mitnicksecurity@protonmail.com</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--   *** Contact Section Ends ***   -->
+    
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h2>𝒩𝒰𝐸𝒲𝒪 𝒜𝑅𝒯𝐸 𝐸𝒳𝒪𝑅𝐵𝐼𝒯𝒜𝒩𝒯𝐸</h2>
+    </div>
+    <div class="footer-banner">
+      <div class="footer-links">
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://wa.me/123456789" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>&copy; 2024 Nuevo Arte Exorbitante. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
